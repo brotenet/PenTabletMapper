@@ -13,7 +13,7 @@ public class Main extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/resources/FrmMain.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 700, 400);
         scene.getStylesheets().add(getClass().getResource("/resources/css/modena-dark.css").toExternalForm());
-        stage.setTitle("X-Input: Map Pen Tablet to Display(s)");
+        stage.setTitle("PenTabletMapper - Map Stylus Pen Tablet to Display(s) using x-input.");
         stage.setScene(scene);
         stage.setResizable(false);
         stage.show();

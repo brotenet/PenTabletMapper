@@ -48,7 +48,7 @@
     <target name="copy-project" depends="copy-lib">
         <mkdir dir="build"/>
         <copy todir="build" overwrite="true">
-            <fileset dir="." excludes="*.launch,build.xml,build/**,src/**,bin/**,lib/**,.settings/**,.classpath,.project,dist/**"/>
+            <fileset dir="." excludes="README.md,LICENSE,*.launch,build.xml,build/**,src/**,bin/**,lib/**,.settings/**,.classpath,.project,dist/**"/>
         </copy>
     	<chmod file="build/run" perm="755"/>
     </target>
