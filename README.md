@@ -12,3 +12,5 @@ Linux tool for mapping the stylus pen of a graphis tablet to a selected display.
 ## Installation
 Simply [download](https://github.com/brotenet/PenTabletMapper/releases) latest app version, enable execute and double click to install it.
 
+
+
