@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="HelloFX" default="build-all" basedir=".">
+<project name="PenTabletMapper" default="build-all" basedir=".">
 
     <property name="src.dir" value="src"/>
     <property name="build.dir" value="bin"/>
